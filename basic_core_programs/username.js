@@ -2,7 +2,7 @@
  *  Execution       :   1. default node         cmd> node username.js
  *                      2. if nodemon installed cmd> nodemon username.js
  *
- *  Purpose         : Genrate distinct Coupon numbers
+ *  Purpose         : Print a message with username
  *
  *  @description
  *
