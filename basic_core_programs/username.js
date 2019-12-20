@@ -21,7 +21,7 @@ let message = "Hello <<username>>,How are you";
 try {
     let replace = username.question("enter the username :")
     let replaced = util.replace(replace, message);
-} catch (err) {
-    console.log(err);
+} catch (error) {
+    console.log(error);
 }
 
