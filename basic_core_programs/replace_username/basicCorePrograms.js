@@ -7,7 +7,7 @@ replace username
 
 }*/
 //using function keyword
-module.exports.replace = function (replaceun, question) {
+exports.replace = function (replaceun, question) {
     question = question.replace("<<username>>", replaceun);
     console.log(question);
 }
