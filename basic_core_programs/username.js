@@ -19,8 +19,8 @@ let username = require('readline-sync');
 let util = require('../utility/basicCorePrograms');
 let message = "Hello <<username>>,How are you";
 try {
-    let replace = username.question("enter the username :");
-    let replaced = util.replace(replace, message);
+    let replaceun = username.question("enter the username :");
+    let replaced = util.replace(replaceun, message);
 } catch (err) {
     console.log(err);
 }
