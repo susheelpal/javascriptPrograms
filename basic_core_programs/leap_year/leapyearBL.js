@@ -1,3 +1,8 @@
+/**
+ * leapyear
+ * @module checkLeapYear
+ */
+
 exports.checkLeapYear = (number) => {
     if (number % 4 == 0)
         console.log(number + ' is a leap year ');
