@@ -14,3 +14,8 @@
  *  @since          : 21-12-2019
  *
  ******************************************************************************/
+let read=require('readline-sync');
+let callFunction=require('./harmonicNumberBL');
+
+let n=read.question('enter the number :');
+callFunction.harmonicNumber(n);
