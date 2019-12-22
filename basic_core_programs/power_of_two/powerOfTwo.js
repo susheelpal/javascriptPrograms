@@ -14,3 +14,9 @@
  *  @since          : 21-12-2019
  *
  ******************************************************************************/
+let read=require('readline-sync');
+let callFunction=require('./powerOfTwoBL');
+
+let varArg=process.argv.slice(2);
+// console.log(varArg);
+callFunction.findPower(varArg);
