@@ -7,7 +7,7 @@
  *  @description
  *
  *  @file           : factorMain.js
- *  @overview       : read how many times want to flip from console and print percentage of both faces.
+ *  @overview       : read number and print prime factors.
  *  @module         : module_name - This is optional if expeclictly its an npm or local package
  *  @author         : Susheel Pal <sushilk497@gmail.com>
  *  @version        : 1.0
