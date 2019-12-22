@@ -2,7 +2,7 @@
  *  Execution       :   1. default node         cmd> node flipcoinmain.js
  *                      2. if nodemon installed cmd> nodemon flipcoinmain.js
  *
- *  Purpose         : Print a message with username
+ *  Purpose         : Print a percentage of flipped coin
  *
  *  @description
  *

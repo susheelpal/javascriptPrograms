@@ -2,7 +2,7 @@
  *  Execution       :   1. default node         cmd> node harmonicNumberMain.js
  *                      2. if nodemon installed cmd> nodemon harmonicNumberMain.js
  *
- *  Purpose         : Print a message with username
+ *  Purpose         : Print a harmonic number
  *
  *  @description
  *

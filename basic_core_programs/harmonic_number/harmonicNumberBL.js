@@ -8,4 +8,3 @@ exports.harmonicNumber=(n) => {
         sum += 1/i;
     }
     console.log(`${i-1}th harmonic number is :` +sum);
-}

@@ -2,7 +2,7 @@
  *  Execution       :   1. default node         cmd> node leapyearmain.js
  *                      2. if nodemon installed cmd> nodemon leapyearmain.js
  *
- *  Purpose         : Print a message with username
+ *  Purpose         : To check a leap year
  *
  *  @description
  *
