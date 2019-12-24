@@ -3,8 +3,6 @@
  */
 let read = require('readline-sync');
 exports.elapsedTime = () => {
-    // let elapsed = endTime - startTime;
-    // console.log('elapsed time :' + elapsed);
     console.log('press y to start the stop watch');
     console.log('press n to stop the stop watch');
     let startTime;

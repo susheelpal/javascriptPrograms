@@ -13,11 +13,5 @@
  *  @version        : 1.0
  *  @since          : 24-12-2019
  ******************************************************************************/
-let read = require('readline-sync');
 let callFunction = require('./stopwatchBL');
-/*let startTime = new Date().getMilliseconds();
-setTimeout(function () {
-    let endTime = new Date().getMilliseconds();
-    callFunction.elapsedTime(startTime, endTime);
-}, 2000);*/
 callFunction.elapsedTime();
