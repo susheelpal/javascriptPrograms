@@ -7,18 +7,17 @@ exports.elapsedTime = () => {
     // console.log('elapsed time :' + elapsed);
     console.log('press y to start the stop watch');
     console.log('press n to stop the stop watch');
+    let startTime;
+    let endTime;
     for (; ;) {
-        let startTime;
-        let endTime;
         let choice = read.question();
         switch (choice) {
             case 'y': startTime = new Date().getMilliseconds();
                 break;
             case 'n': endTime = new Date().getMilliseconds();
-                let elapsed = endTime - startTime;
-                console.log('elapsed time :' + elapsed);
+                let elapsed = Math.abs(endTime - startTime);
+                console.log('elapsed time :' + elapsed + ' ms');
                 process.exit(0);
-                break;
             default: console.log('invalid input');
                 process.exit(0);
         }
