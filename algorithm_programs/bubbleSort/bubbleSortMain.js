@@ -16,7 +16,7 @@
 let callFunction = require('./bubbleSortBL');
 let read = require('readline-sync');
 let arr = [];
-let length = read.questionInt('enter the array length');
+let length = read.questionInt('enter the array length :');
 callFunction.insertElement(arr, length);
 let sortedArray = callFunction.bubbleSort(arr, length);
-console.log(arr);
+console.log(`sorted array is :${arr}`);

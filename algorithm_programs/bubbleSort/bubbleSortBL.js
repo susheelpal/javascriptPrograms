@@ -5,7 +5,7 @@
 let read = require('readline-sync');
 exports.insertElement = (arr, length) => {
     for (let i = 0; i < length; i++) {
-        arr[i] = read.questionInt('enter the element');
+        arr[i] = read.questionInt('enter the element :');
     }
 }
 
