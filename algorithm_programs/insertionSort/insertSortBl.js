@@ -17,7 +17,6 @@ exports.insertionSort = (arr, length) => {
             arr[j] = arr[j - 1];
             j = j - 1;
         }
-        console.log(j);
         arr[j] = temp;
     }
 }
