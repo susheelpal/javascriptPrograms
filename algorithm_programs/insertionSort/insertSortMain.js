@@ -14,3 +14,9 @@
  *  @since          : 24-12-2019
  ******************************************************************************/
 let callFunction = require('./insertSortBl');
+let read = require('readline-sync');
+let arr = [];
+let length = read.questionInt('enter the array length :');
+callFunction.insertElement(arr, length);
+let sortedArray = callFunction.insertionSort(arr, length);
+console.log(`sorted array is :${arr}`);
