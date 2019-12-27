@@ -1,3 +1,4 @@
+
 /**
  * @module primeFactor
  * @param {int} number - given number to find the prime factors
