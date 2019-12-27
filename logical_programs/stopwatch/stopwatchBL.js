@@ -1,7 +1,12 @@
+
+let read = require('readline-sync');
 /**
  * @module elapsedTime
+ * @param startTime - it will take input of starting time
+ * @param endTime - it will take input of ending time
+ * @param choice - it will take of user choice
  */
-let read = require('readline-sync');
+
 exports.elapsedTime = () => {
     console.log('press y to start the stop watch');
     console.log('press n to stop the stop watch');
