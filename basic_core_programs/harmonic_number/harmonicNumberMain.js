@@ -4,7 +4,7 @@
  *
  *  Purpose         : Print a harmonic number
  *
- *  @description
+ *  @description    : Prints the Nth harmonic number: 1/1 + 1/2 + ... + 1/N.
  *
  *  @file           : harmonicNumberMain.js
  *  @overview       : read how many times want to flip from console and print percentage of both faces.
@@ -14,8 +14,12 @@
  *  @since          : 21-12-2019
  *
  ******************************************************************************/
-let read=require('readline-sync');
-let callFunction=require('./harmonicNumberBL');
 
-let n=read.question('enter the number :');
-callFunction.harmonicNumber(n);
+let read = require('readline-sync');
+let callFunction = require('./harmonicNumberBL');
+try {
+    let n = read.question('enter the number :');
+    callFunction.harmonicNumber(n);
+} catch (err) {
+    console.log(err);
+}
