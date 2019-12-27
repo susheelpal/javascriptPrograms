@@ -6,8 +6,8 @@
  *
  *  @description    : Reads in integers prints them in sorted order using Bubble Sort
  *
- *  @file           : ticTacToeMain.js
- *  @overview       : take a X or O as a input and play till win or lose. 
+ *  @file           : bubbleSortMain.js
+ *  @overview       : take the array and sort the array using bubble sort. 
  *  @module         : module_name - This is optional if expeclictly its an npm or local package
  *  @author         : Susheel Pal <sushilk497@gmail.com>
  *  @version        : 1.0
