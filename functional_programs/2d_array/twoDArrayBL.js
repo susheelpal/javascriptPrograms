@@ -1,7 +1,11 @@
+
+let element = require('readline-sync');
 /**
  * @module myArray
+ * @param {int} rows - number of rows of an array
+ * @param {int} columns - number of columns of an array
  */
-let element = require('readline-sync');
+
 exports.myArray = (rows, columns) => {
     let arr = new Array(rows);
     for (i = 0; i < rows; i++) {

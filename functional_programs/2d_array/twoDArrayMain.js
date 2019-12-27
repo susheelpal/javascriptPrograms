@@ -4,7 +4,7 @@
  *
  *  Purpose         : Print 2-d array of given rows and columns
  *
- *  @description
+ *  @description    : A library for reading in 2D arrays of integers, doubles, or booleans from standard input and printing them out to standard output.
  *
  *  @file           : twoDArrayMain.js
  *  @overview       : read rows and columns and print array.
@@ -13,10 +13,14 @@
  *  @version        : 1.0
  *  @since          : 23-12-2019
  ******************************************************************************/
-let read=require('readline-sync');
-let callFunction=require('./twoDArrayBL');
 
-let rows=read.question('enter number of rows :');
-let columns=read.question('enter number of columns :');
+let read = require('readline-sync');
+let callFunction = require('./twoDArrayBL');
+try {
+    let rows = read.question('enter number of rows :');
+    let columns = read.question('enter number of columns :');
 
-callFunction.myArray(rows,columns);
+    callFunction.myArray(rows, columns);
+} catch (err) {
+    console.log(err);
+}
