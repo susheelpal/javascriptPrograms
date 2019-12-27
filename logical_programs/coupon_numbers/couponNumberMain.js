@@ -4,7 +4,9 @@
  *
  *  Purpose         : create distinct coupon numbers.
  *
- *  @description
+ *  @description    : Given N distinct Coupon Numbers, how many random numbers do you need to generate distinct coupon 
+ *                    number? This program simulates this random process.
+
  *
  *  @file           : couponNumberMain.js
  *  @overview       : create a distinct coupon number of given numbe of times. 
@@ -13,8 +15,13 @@
  *  @version        : 1.0
  *  @since          : 23-12-2019
  ******************************************************************************/
+
 let read = require('readline-sync');
 let callFunction = require('./couponNumberBL');
 
-let numberOfCoupons = read.question('enter the number of coupon you want to create :');
-callFunction.distinctCoupon(numberOfCoupons);
+try {
+    let numberOfCoupons = read.question('enter the number of coupon you want to create :');
+    callFunction.distinctCoupon(numberOfCoupons);
+} catch (err) {
+    console.log(err);
+}

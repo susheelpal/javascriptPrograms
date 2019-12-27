@@ -1,5 +1,8 @@
+
 /**
  * @module distinctCoupon
+ * @param {number} coupons -number of coupon
+ * @param arr - to store coupons
  */
 exports.distinctCoupon = (coupons) => {
     let arr = [];
