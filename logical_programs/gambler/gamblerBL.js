@@ -1,6 +1,11 @@
+
 /**
  * @module gameProcess
+ * @param {number} stake - it will take as a stake value
+ * @param {number} goal - it will take as a goal value
+ * @param {number} trials - it will take as a trials value 
  */
+
 exports.gameProcess = (stake, goal, trials) => {
     let win = 0;
     let lose = 0;
