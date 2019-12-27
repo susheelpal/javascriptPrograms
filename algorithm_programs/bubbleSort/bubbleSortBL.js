@@ -1,13 +1,22 @@
+
+let read = require('readline-sync');
 /**
  * @module insertElement
- * @module bubbleSort
+ * @param arr - the group of integers
+ * @param {number} length - the length of the array
  */
-let read = require('readline-sync');
+
 exports.insertElement = (arr, length) => {
     for (let i = 0; i < length; i++) {
         arr[i] = read.questionInt('enter the element :');
     }
 }
+
+/**
+ * @module bubbleSort
+ * @param arr - the group of integers
+ * @param {number} length - the length of the array
+ */
 
 exports.bubbleSort = (arr, length) => {
     for (let i = 0; i < length; i++) {
