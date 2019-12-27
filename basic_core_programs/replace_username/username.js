@@ -4,7 +4,7 @@
  *
  *  Purpose         : Print a message with username
  *
- *  @description
+ *  @description    : User Input and Replace String Template “Hello <<UserName>>, How are you?”
  *
  *  @file           : username.js
  *  @overview       : read username from console and print message.

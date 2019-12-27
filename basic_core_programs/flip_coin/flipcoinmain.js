@@ -4,7 +4,7 @@
  *
  *  Purpose         : Print a percentage of flipped coin
  *
- *  @description
+ *  @description    : 
  *
  *  @file           : flipcoinmain.js
  *  @overview       : read how many times want to flip from console and print percentage of both faces.
