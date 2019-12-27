@@ -1,6 +1,11 @@
+
 /**
  * @module findQuadratic
+ * @param {int} a - first input value
+ * @param {int} b - second input value
+ * @param {int} c - third input value
  */
+
 exports.findQuadratic = (a, b, c) => {
     let d = b * b - 4 * a * c;
     let root1 = (-b + Math.sqrt(d)) / (2 * a);
