@@ -4,7 +4,7 @@
  *
  *  Purpose         : Sort the array using insertion sort.
  *
- *  @description
+ *  @description    : Reads in strings and prints them in sorted order using insertion sort.
  *
  *  @file           : insertSortMain.js
  *  @overview       : take the array and sort the array using insertion sort. 
@@ -13,10 +13,16 @@
  *  @version        : 1.0
  *  @since          : 24-12-2019
  ******************************************************************************/
+
 let callFunction = require('./insertSortBl');
 let read = require('readline-sync');
-let arr = [];
-let length = read.questionInt('enter the array length :');
-callFunction.insertElement(arr, length);
-let sortedArray = callFunction.insertionSort(arr, length);
-console.log(`sorted array is :${arr}`);
+
+try {
+    let arr = [];
+    let length = read.questionInt('enter the array length :');
+    callFunction.insertElement(arr, length);
+    let sortedArray = callFunction.insertionSort(arr, length);
+    console.log(`sorted array is :${arr}`);
+} catch (err) {
+    console.log(err);
+}
