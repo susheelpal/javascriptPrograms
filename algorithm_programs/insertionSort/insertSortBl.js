@@ -8,7 +8,9 @@ exports.insertElement = (arr, length) => {
         arr[i] = read.questionInt('enter the element :');
     }
 }
-
+/**
+ * @module insertionSort
+ */
 exports.insertionSort = (arr, length) => {
     for (let i = 1; i < length; i++) {
         let temp = arr[i];
