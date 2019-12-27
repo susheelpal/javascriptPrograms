@@ -4,7 +4,7 @@
  *
  *  Purpose         : To check a leap year
  *
- *  @description
+ *  @description    : find Leap Year. Ensure it is 4 digit number.
  *
  *  @file           : leapyearmain.js
  *  @overview       : read how many times want to flip from console and print percentage of both faces.
@@ -14,8 +14,12 @@
  *  @since          : 21-12-2019
  *
  ******************************************************************************/
+
 let read = require('readline-sync');
 let callfun = require('./leapyearBL');
-
-let number = read.question('enter year in 4 digit :');
-callfun.checkYear(number);
+try {
+    let number = read.question('enter year in 4 digit :');
+    callfun.checkYear(number);
+} catch (err) {
+    console.log(err);
+}
