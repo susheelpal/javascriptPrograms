@@ -4,7 +4,7 @@
  *
  *  Purpose         : Print a prime factor of given number
  *
- *  @description
+ *  @description    : Computes the prime factorization of N using brute force.
  *
  *  @file           : factorMain.js
  *  @overview       : read number and print prime factors.
@@ -13,8 +13,12 @@
  *  @version        : 1.0
  *  @since          : 23-12-2019
  ******************************************************************************/
-let read=require('readline-sync');
-let callFunction=require('./factorBL');
 
-let number=read.question('enter the number :');
-callFunction.primeFactor(number);
+let read = require('readline-sync');
+let callFunction = require('./factorBL');
+try {
+    let number = read.question('enter the number :');
+    callFunction.primeFactor(number);
+} catch (err) {
+    console.log(err);
+}
