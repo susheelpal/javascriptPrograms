@@ -19,9 +19,9 @@
 let readline = require('readline-sync');
 let callFunction = require('./anagramBL');
 try {
-    let sample1 = readline.question('enter first string ');
-    let sample2 = readline.question('enter second string ');
-    callFunction.checkAnagram(sample1, sample2); //calling checkAnagram()
+    let firstString = readline.question('enter first string ');
+    let secondString = readline.question('enter second string ');
+    callFunction.checkAnagram(firstString, secondString); //calling checkAnagram()
 }
 catch (err) {
     console.log(err);
