@@ -2,7 +2,7 @@
 let assert = require('assert');
 let callFunction = require('../mochaTestingPrograms/vendingMachine/vendingMachineBL');
 /**
- * @module testVendingMachine
+ * 
  */
 
 describe("vendingMachine", () => {
