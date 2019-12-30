@@ -12,10 +12,15 @@ exports.change = amount => {
             amount = amount - count[i] * notes[i]
         }
     }
-
+    let filtered = count.filter((element) => {
+        if (element != null) {
+            return element;
+        }
+    });
     for (let i in count) {
         if (count[i] != 0) {
             console.log(' notes of ' + notes[i] + ' : ' + count[i]);
         }
     }
+    return filtered;
 }
