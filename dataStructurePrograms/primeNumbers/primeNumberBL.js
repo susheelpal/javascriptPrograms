@@ -1,21 +1,23 @@
 let call = require('../../utility/checkPrimeNumber');
-/*exports.primeNumbers = (n) => {
+exports.primeNumbers = (n) => {
 
     let arr = new Array();
-    for (i = 0; i < n/100; i++) {
+    let pnumbers=this.prime(n);
+    for (let i = 0; i < n / 100; i++) {
         arr[i] = new Array();
-        for (j = 0; j < columns; j++) {
-            arr[i][j] = ;
+        let startIndex=i*100;
+        let endIndex=(i+1)*100;
+        for (let j = startIndex; j < endIndex; j++) {
+
+            arr[i] = pnumbers.filter(function(element) {
+                if (element>startIndex && element < endIndex ) {
+                    return element;
+                }
+            });
         }
     }
-    console.log(arr);
-}*/
-let filtered = count.filter((element) => {
-    if (element != null) {
-        return element;
-    }
-});
-
+    return arr;
+}
 exports.prime = (n) => {
     let arr = call.checkPrimeNumber(n);
     return arr;
