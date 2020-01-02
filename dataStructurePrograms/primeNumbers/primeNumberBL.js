@@ -9,7 +9,7 @@ exports.primeNumbers = (n) => {
         let endIndex=(i+1)*100;
         for (let j = startIndex; j < endIndex; j++) {
 
-            arr[i] = pnumbers.filter(function(element) {
+            arr[i] = pnumbers.filter((element)=> {
                 if (element>startIndex && element < endIndex ) {
                     return element;
                 }
