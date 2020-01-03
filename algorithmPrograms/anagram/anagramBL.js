@@ -7,7 +7,7 @@
 
 exports.checkAnagram = (firstString, secondString) => {
     if (firstString.length == secondString.length) {
-        firstString = secondString.split('').sort().join();
+        firstString = firstString.split('').sort().join();
         secondString = secondString.split('').sort().join();
         console.log(firstString);
         console.log(secondString);

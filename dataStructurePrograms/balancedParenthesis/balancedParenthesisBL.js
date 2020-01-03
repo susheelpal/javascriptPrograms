@@ -1,17 +1,16 @@
 
+let stackUtil = require('../../utility/stackUtil');
 exports.balanceParentheses = (expr) => {
-    let stack = [];
+    let stack = new stackUtil.stack();
     for (let i = 0; i < expr.length; i++) {
-
         if (expr[i] === '(') {
-            stack.push(expr[i]);
+            stack.Push(expr[i]);
         }
-
         else if (expr[i] === ')') {
-            if (stack.length == 0 || stack.pop() != '(') {
+            if (stack.isEmpty() || stack.pop() != '(') {
                 return false;
             }
         }
     }
-    return stack.length == 0;
+    return stack.isEmpty();
 }
