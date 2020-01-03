@@ -20,5 +20,5 @@
 let read = require('readline-sync');
 let callFunction = require('./vendingMachineBL');
 console.log('There is 1, 2, 5, 10, 50, 100, 500 and 1000 Rs Notes which can be returned by Vending Machine.');
-let amount=read.questionInt('enter the amount :');
+let amount = read.questionInt('enter the amount :');
 callFunction.change(amount);

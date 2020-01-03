@@ -10,7 +10,7 @@
  *  @file           : newtonSqrt.js
  *  @overview       : calculates the square root using newton's method 
  *                      
- *  @author         : shreyash kaushal <shreyashkaushal>
+ *  @author         : Susheel Pal <sushilk497@gmail.com>
  *  @version        : 1.0
  *  @since          : 20-12-2019
  

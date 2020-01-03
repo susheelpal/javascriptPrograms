@@ -14,7 +14,7 @@
  *  @overview       :calculates the monthly payments P principal loan you would have to make 
  *                   over Y years to pay off amount at R per cent interest compounded monthly using formula 
  *                      
- *  @author         : shreyash kaushal <shreyashkaushal>
+ *  @author         : Susheel Pal <sushilk497@gmail.com>
  *  @version        : 1.0
  *  @since          : 20-12-2019
  *
