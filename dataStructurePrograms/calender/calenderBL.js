@@ -1,4 +1,9 @@
 
+/**
+ * @module calender
+ * @param {number} month - it will take month in a number
+ * @param {number} year - it will take year in 4 digit
+ */
 exports.calender = (month, year) => {
     function day(month, day, year) {
         let y = year - (14 - month) / 12;
