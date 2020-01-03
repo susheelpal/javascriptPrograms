@@ -20,11 +20,9 @@ const lib = require('./toBinaryBL');
 
 try {
     let input = readline.question('Enter the decimal value ')
-    console.log(input)
-    const result = parseInt(input, 10).toString(2);
+    // const result = parseInt(input, 10).toString(2);
+    let result = lib.toBinary(input);
     console.log(result);
-    // console.log(Math.floor(9/2));
-    lib.toBinary(input);
 }
 catch (err) {
     console.log(err);
