@@ -1,8 +1,8 @@
 
 /**
- * 
+ * @class Node
+ * @class LinkedList
  */
-const readline = require("readline-sync");
 class Node {
     constructor(data, next = null) {
         this.data = data;
