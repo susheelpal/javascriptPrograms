@@ -1,9 +1,6 @@
 
 let assert = require('assert');
 let callFunction = require('../mochaTestingPrograms/vendingMachine/vendingMachineBL');
-/**
- * 
- */
 
 describe("vendingMachine", () => {
   let amount = 1234;
