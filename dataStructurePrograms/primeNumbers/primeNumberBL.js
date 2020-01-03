@@ -1,4 +1,9 @@
 
+/**
+ * @module primeNumbers
+ * @param {number} n - it will take the number
+ */
+
 let call = require('../../utility/checkPrimeNumber');
 exports.primeNumbers = (n) => {
 
