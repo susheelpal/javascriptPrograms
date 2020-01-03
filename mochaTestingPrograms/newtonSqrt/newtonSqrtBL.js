@@ -17,7 +17,7 @@ sqrt = (c) => {
         t = ((c / t) + t) / 2
     }
 
-    return t
+    return Math.round(t)
 }
 module.exports = {
     sqrt
