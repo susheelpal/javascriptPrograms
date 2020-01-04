@@ -16,7 +16,7 @@ monthlyPayment = (P, R, Y) => {
   const n = 12 * Y
   const deno = 1 - (1 + r) ** (-n)
   const payment = (P * r) / deno
-  return payment
+  return Math.round(payment)
 }
 
 module.exports = {
