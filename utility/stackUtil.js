@@ -12,12 +12,7 @@ class stack {
     }
     /*---------------------------check either stack is empty or not --------------------------*/
     isEmpty() {
-        if (this.size == 0) {
-            return true;
-        }
-        else {
-            return false;
-        }
+        return this.size == 0?true:false;
     }
     /*--------------------------add the element into the stack --------------------------*/
     Push(data) {
