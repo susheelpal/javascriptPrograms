@@ -1,3 +1,8 @@
+
+/**
+ * @class Node
+ * @class Queue
+ */
 class Node{
     constructor(value){
         this.value=value;
