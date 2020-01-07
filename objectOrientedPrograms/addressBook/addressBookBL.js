@@ -25,21 +25,21 @@ class Address {
         let p = new Person(name, city, state, pincode, mobileNo);
         this.addressbook.push(p);
         console.log(this.addressbook);
-        fs.writeFile('../../utility/addressBook.json', JSON.stringify(this.addressbook), (err) => {
+        fs.writeFile('addressBook.json', JSON.stringify(this.addressbook), (err) => {
             if (err) throw err;
         });
         // fs.writeFileSync('utility/addressBook.json', JSON.stringify(this.addressbook))
         // console.log('done')
     }
 }
-let content = fs.readFileSync('../../utility/addressBook.json');
+let content = fs.readFileSync('addressBook.json');
 let addr = JSON.parse(content)
-if (addr.person[i] == null) {
-    
-}
-// console.log(addr.person[1])
+// if (addr.person[i] == null) {
+//     addr.person.pop();
+// }
+console.log(addr.person[1])
 // delete addr[0];
-fs.writeFileSync('../../utility/addressBook.json', JSON.stringify(addr));
+fs.writeFileSync('addressBook.json', JSON.stringify(addr));
 
 // console.log(addr[0])
 // const address1 = new Address();
