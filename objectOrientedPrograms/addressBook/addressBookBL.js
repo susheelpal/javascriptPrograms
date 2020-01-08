@@ -26,10 +26,7 @@ class Address {
         let p = new Person(name, city, state, pincode, mobileNo);
         this.entry.person.push(p);
         // console.log(this.addressbook);
-        // fs.writeFileSync('addressBook.json', JSON.stringify(this.entry));
-        fs.writeFile('addressBook.json', JSON.stringify(this.entry), (err) => {
-            if (err) throw err;
-        });
+        fs.writeFileSync('addressBook.json', JSON.stringify(this.entry));
         console.log('Done !!!');
 
     }
