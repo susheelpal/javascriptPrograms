@@ -101,6 +101,14 @@ module.exports = {
             "state": "karnataka",
             "pincode": 560098,
             "mobileNo": 8797340455
+        },
+        {
+        "id":3,
+            "name": "sharanya",
+            "city": "banglore",
+            "state": "karnataka",
+            "pincode": "560055",
+            "mobileNo": 7411696506
         }
     ]
 }

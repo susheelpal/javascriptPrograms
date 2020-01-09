@@ -1,0 +1,53 @@
+{
+    "Rice": [
+        {
+            "Name": "Brown",
+            "Weight": 30,
+            "Price": 120
+        },
+        {
+            "Name": "Basmathi",
+            "Weight": 20,
+            "Price": 100
+        },
+        {
+            "Name": "white",
+            "Weight": 30,
+            "Price": 50
+        }
+    ],
+    "Wheat": [
+        {
+            "Name": "Hard White",
+            "Weight": 20,
+            "Price": 34
+        },
+        {
+            "Name": "Hard Red Winter",
+            "Weight": 50,
+            "Price": 23
+        },
+        {
+            "Name": "Soft Red Winter",
+            "Weight": 40,
+            "Price": 56
+        }
+    ],
+    "Pulses": [
+        {
+            "Name": "Redgram",
+            "Weight": 50,
+            "Price": 120
+        },
+        {
+            "Name": "blackgram",
+            "Weight": 10,
+            "Price": 100
+        },
+        {
+            "Name": "mungbean",
+            "Weight": 40,
+            "Price": 150
+        }
+    ]
+}
