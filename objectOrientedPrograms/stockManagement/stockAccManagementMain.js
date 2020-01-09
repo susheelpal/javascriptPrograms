@@ -1,18 +1,22 @@
 
 /******************************************************************************
- *  Execution       :   1. default node         cmd> node stockAccManagementMain.js 
-                      
- * @description     :  Write a program to read in Stock Names, Number of Share, Share Price.
-                       Print a Stock Report with total value of each Stock and the total value of Stock.
- *  @file           :  stockAccManagementMain.js
- *  @overview       :  Print a Stock Report with total value of each Stock and the total value of Stock.
- *  @author         :  Susheel Pal <sushilk497@gmail.com>
- *  @version        :  1.0
- *  @since          :  09-12-2019
+ *  Execution       :   1. default node         cmd> node stockAccManagementMain.js
+ *                      2. if nodemon installed cmd> nodemon stockAccManagementMain.js
+ *
+ *  Purpose         : stock Account Management
+ *
+ *  @description    : Write a program to read in Stock Names, Number of Share, Share Price.
+ *                    Print a Stock Report with total value of each Stock and the total value of Stock.
+ *  @file           : stockAccManagementMain.js
+ *  @overview       : stock Account Management
+ *  @module         : module_name - This is optional if expeclictly its an npm or local package
+ *  @author         : Susheel Pal <sushilk497@gmail.com>
+ *  @version        : 1.0
+ *  @since          : 09-1-2019
  ******************************************************************************/
 
 const read = require('readline-sync');
-const call = require('./stockBL');
+const call = require('./stockAccManagementBL');
 
 try {
     console.log(' ********* Stock Account Management ********* ');
