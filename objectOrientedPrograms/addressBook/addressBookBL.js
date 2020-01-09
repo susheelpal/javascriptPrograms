@@ -1,3 +1,7 @@
+/**
+ * @class Address
+ * @class Person
+ */
 let read = require('readline-sync')
 let fs = require('fs')
 class Person {
@@ -25,7 +29,6 @@ class Address {
         let mobileNo = read.questionInt('enter your mobile number');
         let p = new Person(name, city, state, pincode, mobileNo);
         this.entry.person.push(p);
-        // console.log(this.addressbook);
         fs.writeFileSync('addressBook.json', JSON.stringify(this.entry));
         console.log('details added successfully !!!');
 
@@ -66,7 +69,6 @@ class Address {
                 addr.person[i].pincode = pincode;
                 addr.person[i].mobileNo = mobileNo;
                 console.log('updated successfully !!!');
-
             }
         }
         fs.writeFileSync('addressBook.json', JSON.stringify(addr));
@@ -81,14 +83,6 @@ module.exports = {
     Address,
     Person
 }
-// const address1 = new Address();
-// address1.deleteEntries(1);
-    // console.log(addr[0])
-    // const address1 = new Address();
-    //const address1 = new Address();
-    // address1.createAddress();
-    // address1.createAddress();
-    // createAddress(addr)
 /**
  * {
     "person": [
