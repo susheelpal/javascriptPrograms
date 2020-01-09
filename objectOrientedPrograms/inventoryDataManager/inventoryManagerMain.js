@@ -1,7 +1,7 @@
 
 /******************************************************************************
- *  Execution       :   1. default node         cmd> node inventoryMain.js
- *                      2. if nodemon installed cmd> nodemon inventoryMain.js
+ *  Execution       :   1. default node         cmd> node inventoryManagerMain.js
+ *                      2. if nodemon installed cmd> nodemon inventoryManagerMain.js
  *
  *  Purpose         : Inventory Data Management.
  *
@@ -10,7 +10,7 @@
 
 
  *
- *  @file           : inventoryMain.js
+ *  @file           : inventoryManagerMain.js
  *  @overview       : Inventory Data Management.
  *  @module         : module_name - This is optional if expeclictly its an npm or local package
  *  @author         : Susheel Pal <sushilk497@gmail.com>
