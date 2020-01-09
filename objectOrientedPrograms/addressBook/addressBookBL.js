@@ -27,7 +27,7 @@ class Address {
         this.entry.person.push(p);
         // console.log(this.addressbook);
         fs.writeFileSync('addressBook.json', JSON.stringify(this.entry));
-        console.log('Done !!!');
+        console.log('details added successfully !!!');
 
     }
 
@@ -46,12 +46,30 @@ class Address {
         })
         // const result = addr.person.filter(value => value !== null);
         fs.writeFileSync('addressBook.json', JSON.stringify(addr));
-        console.log('Done !!!')
+        console.log('deleted successfully !!!')
     }
 
     modifyDetails() {
-        console.log("Modify details");
+        const id = read.questionInt("Enter the ID to edit corresponding entry ");
+        let content = fs.readFileSync('addressBook.json');
+        let addr = JSON.parse(content);
+        for (let i = 0; i < addr.person.length; i++) {
+            if (addr.person[i].id == id) {
+                const name = read.question("enter the name :");
+                const city = read.question("enter the city :");
+                const state = read.question("enter the state :");
+                const pincode = read.question("enter the pin code :");
+                const mobileNo = read.question("enter the mobile Number :");
+                addr.person[i].name = name;
+                addr.person[i].city = city;
+                addr.person[i].state = state;
+                addr.person[i].pincode = pincode;
+                addr.person[i].mobileNo = mobileNo;
+                console.log('updated successfully !!!');
 
+            }
+        }
+        fs.writeFileSync('addressBook.json', JSON.stringify(addr));
     }
 
     displayDetails() {

@@ -1,0 +1,20 @@
+{
+    "person": [
+        {
+            "id": 1,
+            "name": "susheel Pal",
+            "city": "bangalore",
+            "state": "karnataka",
+            "pincode": 560025,
+            "mobileNo": 8797340455
+        },
+        {
+            "id": 2,
+            "name": "shravanthi",
+            "city": "bangalore",
+            "state": "ap",
+            "pincode": "560098",
+            "mobileNo": "646464464"
+        }
+    ]
+}
