@@ -1,3 +1,8 @@
+/**
+ * @module inventoryStoreCalculateRice
+ * @module inventoryStoreCalculateWheat
+ * @module inventoryStoreCalculatePulses
+ */
 let fs = require('fs')
 let inventory = JSON.parse(fs.readFileSync('inventory.json'));
 
