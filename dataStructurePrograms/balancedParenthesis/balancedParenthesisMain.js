@@ -22,6 +22,7 @@ let callFunction = require('./balancedParenthesisBL');
 try {
     let exp = read.question("Enter the user input :");
     let result = callFunction.balanceParentheses(exp) == true ? "Balanced !!" : "Not Balanced!!";
+    console.log(result)
 } catch (err) {
     console.log(err);
 }
