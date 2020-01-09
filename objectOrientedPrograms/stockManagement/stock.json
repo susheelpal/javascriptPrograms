@@ -1,0 +1,19 @@
+{
+    "stockDetails": [
+        {
+            "sName": "mahindra",
+            "numberOfStock": 5,
+            "sPrice": 500
+        },
+        {
+            "sName": "tcs",
+            "numberOfStock": 6,
+            "sPrice": 600
+        },
+        {
+            "sName": "wipro",
+            "numberOfStock": 6,
+            "sPrice": 800
+        }
+    ]
+}
