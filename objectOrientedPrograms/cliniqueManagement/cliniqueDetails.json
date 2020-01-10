@@ -1,0 +1,51 @@
+{
+    "doctors": [
+        {
+            "name": "Dr.chenna Swamy Reddy",
+            "Id": 1236,
+            "specialisation": "Cardiologist",
+            "availability": "AM"
+        },
+        {
+            "name": "Dr.sivaprasad",
+            "Id": 1234,
+            "specialisation": "neurologist",
+            "availability": "AM"
+        },
+        {
+            "name": "Dr.shyamal",
+            "Id": 1478,
+            "specialisation": "physiotherephist",
+            "availability": "both"
+        }
+    ],
+    "patients": [
+        {
+            "name": "mani",
+            "Id": 4111,
+            "docterId": 1234,
+            "phoneNumber": 7874545455,
+            "age": 45,
+            "appointmentFrom": "Dr.sivaprasad",
+            "onTheDayOf": 28
+        },
+        {
+            "name": "preethi",
+            "Id": 9874,
+            "docterId": 1478,
+            "phoneNumber": 4569871236,
+            "age": 56,
+            "appointmentFrom": "Dr.shyamal",
+            "onTheDayOf": 28
+        },
+        {
+            "name": "sowmya",
+            "Id": 5698,
+            "docterId": 1478,
+            "phoneNumber": 4563217896,
+            "age": 89,
+            "appointmentFrom": "Dr.shyamal",
+            "onTheDayOf": 29
+        }
+    ]
+}
