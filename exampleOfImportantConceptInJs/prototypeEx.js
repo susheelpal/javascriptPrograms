@@ -11,8 +11,6 @@ function student(rollNo, name, age) {
 student.prototype.show = "hii";
 const s1 = new student(101, 'shre', 21);
 const s2 = new student(100, 'sush', 22);
-// s1.add();
-// console.log(s1.institute);
 
 for (let x in s1) {
     console.log(s1[x]);
@@ -21,4 +19,3 @@ for (let x in s1) {
 for (let y of arr) {
     console.log(y);
 }*/
-// console.log(s1)
