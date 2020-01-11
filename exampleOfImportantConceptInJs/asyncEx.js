@@ -9,4 +9,4 @@ async function fun1(a, b) {
     console.log(result);
 
 }
-fun1(10, 20, add)
+fun1(10, 20, add);
