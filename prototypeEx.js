@@ -21,4 +21,3 @@ for (let x in s1) {
 for (let y of arr) {
     console.log(y);
 }*/
-// console.log(s1)
