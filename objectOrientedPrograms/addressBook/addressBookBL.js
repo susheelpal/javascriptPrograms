@@ -5,7 +5,8 @@
 let read = require('readline-sync')
 let fs = require('fs')
 class Person {
-    constructor(name, city, state, pincode, mobileNo) {
+    constructor(id, name, city, state, pincode, mobileNo) {
+        this.id = id;
         this.name = name;
         this.city = city;
         this.state = state;
@@ -21,15 +22,17 @@ class Address {
     }
 
     createAddress() {
-
+        let id = read.questionInt('enter your id :')
         let name = read.question('enter your name :');
         let city = read.question('enter your city :');
         let state = read.question('enter your state :');
         let pincode = read.question('enter your pincode');
         let mobileNo = read.questionInt('enter your mobile number');
-        let p = new Person(name, city, state, pincode, mobileNo);
-        this.entry.person.push(p);
-        fs.writeFileSync('addressBook.json', JSON.stringify(this.entry));
+        let p = new Person(id, name, city, state, pincode, mobileNo);
+        let content = JSON.parse(fs.readFileSync('addressBook.json'))
+        content.person.push(p);
+
+        fs.writeFileSync('addressBook.json', JSON.stringify(content));
         console.log('details added successfully !!!');
 
     }
