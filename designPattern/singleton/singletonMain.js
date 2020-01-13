@@ -15,6 +15,7 @@
  *  @since          : 13-1-2019
  *
  ******************************************************************************/
+
 let call = require('./singletonBL')
 let s = new call.Singleton('Object1');
 const obj1 = s.getObject();
