@@ -1,0 +1,94 @@
+﻿*{
+    padding:0;
+    margin: 0;
+}
+body {
+    color:white;
+    margin:30px 0px;
+    width: 100%;
+    height: 100vh;
+    background-image:url('employment.jpg');
+    background-size:cover;
+}
+.outerDiv1 {
+    display:flex;
+    flex-direction:column;
+}
+.innerDiv1 {
+    display: flex;
+    color: #fff;
+    font-size: 50px;
+    margin-left: 20%;
+    text-transform: uppercase;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.innerDiv2 {
+    color: #fff;
+    display: flex;
+    direction: ltr;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-right: 20%;
+}
+label {
+    margin-left:10px;
+}
+input {
+    background-color: #ffe6e6;
+    margin:5px;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+}
+button {
+    width:70px;
+    height: 30px;
+    border:none;
+    margin-left:110px;
+    border-radius: 5px;
+    background-color:dodgerblue;
+    text-align: center;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color:cornflowerblue;
+}
+.menu{
+    height:50px;
+    text-align:right;
+    border:none;
+    padding-top:15px;
+}
+.menu li{
+   display:inline-block;
+   font-size:20px;
+   color:#fff;
+   text-transform:uppercase;
+   padding-right:60px;
+   list-style:none;
+   direction:ltr;
+   padding-left:5px;
+}
+.menu a{
+    color:#fff;
+    text-decoration:none;
+}
+.menu a:hover{
+    color:aqua;
+}
+p{
+    font-size:17px;
+}
+a{
+    color:aqua;
+}
+
+/*------------login page------------*/
+
+.form{
+    color:white;
+    margin-left:35%;
+    margin-right:30%;
+}
+
