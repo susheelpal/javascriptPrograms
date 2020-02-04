@@ -4,7 +4,6 @@ C:\Users\Admin\source\repos\test\test\bin\Debug\netcoreapp2.1\test.runtimeconfig
 C:\Users\Admin\source\repos\test\test\bin\Debug\netcoreapp2.1\test.runtimeconfig.dev.json
 C:\Users\Admin\source\repos\test\test\bin\Debug\netcoreapp2.1\test.dll
 C:\Users\Admin\source\repos\test\test\bin\Debug\netcoreapp2.1\test.pdb
-C:\Users\Admin\source\repos\test\test\obj\Debug\netcoreapp2.1\test.csprojAssemblyReference.cache
 C:\Users\Admin\source\repos\test\test\obj\Debug\netcoreapp2.1\test.RazorAssemblyInfo.cache
 C:\Users\Admin\source\repos\test\test\obj\Debug\netcoreapp2.1\test.RazorAssemblyInfo.cs
 C:\Users\Admin\source\repos\test\test\obj\Debug\netcoreapp2.1\test.AssemblyInfoInputs.cache
@@ -12,3 +11,4 @@ C:\Users\Admin\source\repos\test\test\obj\Debug\netcoreapp2.1\test.AssemblyInfo.
 C:\Users\Admin\source\repos\test\test\obj\Debug\netcoreapp2.1\test.RazorTargetAssemblyInfo.cache
 C:\Users\Admin\source\repos\test\test\obj\Debug\netcoreapp2.1\test.dll
 C:\Users\Admin\source\repos\test\test\obj\Debug\netcoreapp2.1\test.pdb
+C:\Users\Admin\source\repos\test\test\obj\Debug\netcoreapp2.1\test.csprojAssemblyReference.cache

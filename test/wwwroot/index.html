@@ -2,8 +2,9 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAMPLE Page</title>
+    <title>Home Page</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    
 </head>
 <body >
     <div class="outerdiv1">
@@ -17,19 +18,46 @@
         <div class="innerDiv1">employee management system</div>
         <div class="innerDiv2">
             <label for="fname" >First Name :</label>
-            <input class="form-control" type="text" /><br />
-            <label for="lname" style="margin-left:10px">Last Name :</label>
-            <input class="form-control" type="text" /><br />
-            <label for="email" style="margin-left:10px">Email :</label>
-            <input class="form-control" type="email"  /><br />
-            <label for="pwd" style="margin-left:10px">Password :</label>
-            <input class="form-control" type="password"  /><br />
-            <label for="cpwd" style="margin-left:10px">Confirm Password :</label>
-            <input class="form-control" type="password" /><br />
-            <button type="button">Sign Up</button>
+            <input id="fName" type="text" onchange="checkForm()"/><br />
+            <label for="lname">Last Name :</label>
+            <input id="lName" type="text" onchange="checkForm()"/><br />
+            <label for="email">Email :</label>
+            <input id="email" type="email"  onchange="checkForm()"/><br />
+            <label for="pwd">Password :</label>
+            <input id="pwd" type="password"  onchange="checkForm()"/><br />
+            <label for="cpwd">Confirm Password :</label>
+            <input id="cpwd" type="password" onkeyup="checkForm()"/><br />
+            <button id="signup" type="button" disabled >Sign Up</button>
             <p>already have an account &nbsp;<a href="login.html">click here</a></p>
         </div>
     </div>
-
+    <script>
+        checkForm = () => {
+            var isSignUp = true;
+            if (document.getElementById("fName").value == "") {
+                isSignUp = false;
+            }
+            if (document.getElementById("lName").value == "") {
+                isSignUp = false;
+            }
+            if (document.getElementById("email").value == "") {
+                isSignUp = false;
+            }
+            if (document.getElementById("pwd").value == "") {
+                isSignUp = false;
+            }
+            if (document.getElementById("cpwd").value == "") {
+                isSignUp = false;
+            }
+           
+            if (isSignUp) {
+                document.getElementById("signup").disabled = false;
+            }
+            else {
+                document.getElementById("signup").disabled =  true;
+            }
+        }
+        
+    </script>
 </body>
 </html>
